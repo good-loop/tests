@@ -9,7 +9,7 @@
     "puppeteer": "^1.2.0"
   },
   "scripts": {
-    "compile": "babel src/source-rectangle-default.js --out-file compiled/rectangle-default.js",
+    "compile": "babel src/rectangle-default.js --out-file compiled/rectangle-default.js",
     "screenshot": "node compiled/rectangle-default.js"
   }
 }
