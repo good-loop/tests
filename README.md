@@ -2,7 +2,7 @@
 ## Installation
 * clone repo
 * npm i
-* npm run compile
-* npm run screenshot
+* ./compile.sh
+* ./take-test-screenshots.sh
 <br>
 Screenshot is saved in this directory.
