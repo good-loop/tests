@@ -9,7 +9,7 @@
     "puppeteer": "^1.2.0"
   },
   "scripts": {
-    "compile": "babel source-take-screenshot.js --out-file take-screenshot.js",
-    "screenshot": "node take-screenshot.js"
+    "compile": "babel src/source-rectangle-default.js --out-file compiled/rectangle-default.js",
+    "screenshot": "node compiled/rectangle-default.js"
   }
 }
