@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer');
   const loaded = page.waitForNavigation({waitUntil: 'networkidle0'});
   const mouse = page.mouse;
   await page.setViewport({width: 1920,height: 1080});
-  await page.goto('http://rectangle.good-loop.com/?gl.variant=brand-funded');
+  await page.goto('http://test.good-loop.com/rectangle/?gl.variant=brand-funded');
   await loaded;
   await mouse.click(175,202);
   await loaded;
